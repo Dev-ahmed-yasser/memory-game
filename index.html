@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="shortcut icon" href="assets/memory.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="start-menu d-flex align-items-center justify-content-center">
+    <button id="start-btn">Start Game</button>
+  </div>
+  <div class="game-container d-flex justify-content-center">
+    <div class="container">
+      <div class="header d-flex justify-content-between mt-3 p-2">
+        <h3>Hello:<span id="user-name"> guest</span></h3>
+        <h3>Wrong tries: <span id="attempts">0</span></h3>
+      </div>
+      <div class="game">
+        <div class="block" data-fruit="apple">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/apple.png" alt="apple" >
+          </div>
+        </div>
+        <div class="block" data-fruit="apple">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/apple.png" alt="apple">
+          </div>
+        </div>
+        <div class="block" data-fruit="blueberry"
+        data-fruit="blueberry">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/blueberry.png" alt="blueberry" >
+          </div>
+        </div>
+        <div class="block" data-fruit="blueberry"
+        data-fruit="blueberry">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/blueberry.png" alt="blueberry" >
+          </div>
+        </div>
+        <div class="block" data-fruit="cherries"
+        data-fruit="cherries">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/cherries.png" alt="cherries" >
+          </div>
+        </div>
+        <div class="block" data-fruit="cherries"
+        data-fruit="cherries">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/cherries.png" alt="cherries" >
+          </div>
+        </div>
+        <div class="block" data-fruit="fruit"
+        data-fruit="fruit">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/fruit.png" alt="fruit" >
+          </div>
+        </div>
+        <div class="block" data-fruit="fruit"
+        data-fruit="fruit">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/fruit.png" alt="fruit" >
+          </div>
+        </div>
+        <div class="block" data-fruit="grapes"
+        data-fruit="grapes">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/grapes.png"  alt="grapes" >
+          </div>
+        </div>
+        <div class="block" data-fruit="grapes"
+        data-fruit="grapes">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/grapes.png"  alt="grapes" >
+          </div>
+        </div>
+        <div class="block" data-fruit="lemon"
+        data-fruit="lemon">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/lemon.png" alt="lemon" >
+          </div>
+        </div>
+        <div class="block" data-fruit="lemon"
+        data-fruit="lemon">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/lemon.png" alt="lemon" >
+          </div>
+        </div>
+        <div class="block" data-fruit="strawberry"
+        data-fruit="strawberry">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/strawberry.png" alt="strawberry" >
+          </div>
+        </div>
+        <div class="block" data-fruit="strawberry"
+        data-fruit="strawberry">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/strawberry.png" alt="strawberry" >
+          </div>
+        </div>
+        <div class="block"  data-fruit="watermelon">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/watermelon.png" alt="watermelon" >
+          </div>
+        </div>
+        <div class="block"  data-fruit="watermelon">
+          <div class="face front"><p>?</p></div>
+          <div class="face back">
+            <img decoding="async" src="assets/images/watermelon.png" alt="watermelon">
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
